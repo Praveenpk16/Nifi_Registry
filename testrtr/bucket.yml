@@ -1,5 +1,6 @@
 flows:
-  8264d4e7-a184-4441-8595-d190b6f5b75d: {ver: 3, file: test.snapshot, comments: removed
-      put data, author: anonymous, created: 1700662520984, flowName: test, flowDesc: ''}
+  8264d4e7-a184-4441-8595-d190b6f5b75d: {ver: 4, file: test.snapshot, comments: added
+      putlocalchanges data, author: anonymous, created: 1700663019517, flowName: test,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: 1fd3a4d6-c96a-4760-840f-39167158d1a5
