@@ -2,7 +2,7 @@ flows:
   8264d4e7-a184-4441-8595-d190b6f5b75d: {ver: 4, file: test.snapshot, comments: added
       putlocalchanges data, author: anonymous, created: 1700663019517, flowName: test,
     flowDesc: ''}
-  79c3cebe-9d9e-42f9-8604-fafbd63c0fbf: {ver: 1, file: TEst.snapshot, comments: '',
-    author: anonymous, created: 1700719317926, flowName: TEst, flowDesc: ''}
+  79c3cebe-9d9e-42f9-8604-fafbd63c0fbf: {ver: 2, file: TEst.snapshot, comments: Added
+      Test Gnerate, author: anonymous, created: 1700719468547, flowName: TEst, flowDesc: ''}
 layoutVer: 1
 bucketId: 1fd3a4d6-c96a-4760-840f-39167158d1a5
