@@ -83,6 +83,39 @@
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "e89cc2c7-b37a-3c7f-99af-2e66b43d5898",
+            "id" : "c18719ae-f8da-3645-a9b0-e165c1d27711",
+            "instanceIdentifier" : "9be709a9-acdb-38b5-9253-96c9844f71a7",
+            "name" : "PutDatabaseRecord",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "e89cc2c7-b37a-3c7f-99af-2e66b43d5898",
+          "identifier" : "de781364-a6c7-393d-8e5d-fc2dc9bc59a3",
+          "instanceIdentifier" : "fb7cb875-018b-1000-1419-57db9842990b",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "e89cc2c7-b37a-3c7f-99af-2e66b43d5898",
+            "id" : "37408000-0b13-39aa-b3cf-987123c270d6",
+            "instanceIdentifier" : "f769ea46-018b-1000-5e43-e4c7ebc2d6b3",
+            "name" : "PutDatabaseRecord",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
         } ],
         "controllerServices" : [ ],
         "defaultBackPressureDataSizeThreshold" : "1 GB",
@@ -363,7 +396,7 @@
           "type" : "org.apache.nifi.processors.standard.GetSFTP",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "success", "failure", "retry" ],
+          "autoTerminatedRelationships" : [ "failure", "retry" ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -382,8 +415,8 @@
           "name" : "PutDatabaseRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 808.0,
-            "y" : 280.0
+            "x" : 688.0,
+            "y" : 376.0
           },
           "properties" : {
             "put-db-record-allow-multiple-statements" : "false",
