@@ -1,9 +1,0 @@
-flows:
-  8264d4e7-a184-4441-8595-d190b6f5b75d: {ver: 8, file: test.snapshot, comments: 7th
-      version, author: anonymous, created: 1700731898793, flowName: test, flowDesc: ''}
-  d424417d-c16a-420a-b1ea-882635e5cbc1: {ver: 2, file: pandi.snapshot, comments: deleted,
-    author: anonymous, created: 1700729184494, flowName: pandi, flowDesc: ''}
-  79c3cebe-9d9e-42f9-8604-fafbd63c0fbf: {ver: 2, file: TEst.snapshot, comments: Added
-      Test Gnerate, author: anonymous, created: 1700719468547, flowName: TEst, flowDesc: ''}
-layoutVer: 1
-bucketId: 1fd3a4d6-c96a-4760-840f-39167158d1a5
